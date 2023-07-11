@@ -1,0 +1,28 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+#nev{
+    height:60px ;
+    background-color: black;
+}
+a {
+    color: white;
+}
+
+#logo{
+    color: yellow;
+    font-size: 30px;
+}
+
+#input {
+    background-color: yellow;
+    font-size: 15px;
+}
+a {
+    margin-right: 250px;
+    font-size:20px;
+}
+input{
+    font-size: 15px;
+}
