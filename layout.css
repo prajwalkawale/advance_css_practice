@@ -1,0 +1,62 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+#nev {
+  height: 60px;
+  background-color:#232F3E;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+
+#logo {
+  color: yellow;
+  font-size: 30px;
+}
+
+#demo {
+    border-radius: 5px;
+    font-size: larger;
+}
+#input {
+  background-color: yellow;
+  font-size: 15px;
+}
+a {
+  margin-right: 200px;
+  font-size: 20px;
+}
+#input {
+  font-size:larger;
+}
+.boxOne {
+  margin: 50px;
+  padding: 30px;
+  width: 100px;
+  height: 100px;
+  border: 3px solid;
+  display: inline-flex;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: larger;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+#contain {
+  height: 720px;
+  background-color: bisque;
+}
+
+#condition {
+    display: inline;
+}
+
+
+footer {
+  background-color:#232F3E;
+  color: white;
+  text-align: center;
+}
+
