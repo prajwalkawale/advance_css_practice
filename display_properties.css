@@ -1,0 +1,9 @@
+div {
+    height: 200px;
+    width: 200px;
+    border: 2px solid;
+    background-image: url("random_img.jpg");
+    background-size: cover;
+    position: fixed;
+    right: 2px;
+}
