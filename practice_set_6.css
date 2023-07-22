@@ -1,0 +1,44 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+    background-color: #232F3E;
+    color: white;
+}
+
+ul {
+    display: flex;
+    background-color: #232F3E;
+    height: 60px;
+    justify-content: space-evenly;
+}
+a {
+    color: white;
+}
+
+li {
+    display: inline;
+}
+
+#one {
+    border: 2px solid black;
+    height: 500px;
+    width: 500px;
+    background-color: darkblue ;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+#two {
+    border: 2px solid black;
+    height: 200px;
+    width: 200px;
+    background-color: crimson;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
