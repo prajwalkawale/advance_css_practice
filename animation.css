@@ -1,0 +1,60 @@
+h1 {
+  text-align: center;
+  background-color: bisque;
+  border: 2px solid;
+}
+
+div {
+  height: 150px;
+  width: 150px;
+  background-color: chocolate;
+  border: 2px solid;
+  position: relative;
+  top: 100px;
+  left: 250px;
+  animation: firstAnimation 1s infinite;
+}
+
+@keyframes firstAnimation {
+  from {
+    background-color: chocolate;
+    color: black;
+    transform: translate();
+  }
+
+  to {
+    background-color: darkgreen;
+    color: white;
+    transform: translate(250px);
+  }
+}
+#one {
+  height: 150px;
+  width: 150px;
+  background-color: red;
+  border: 2px solid;
+  position: relative;
+  top: 100px;
+  left: 250px;
+  animation: secondAnimation 3s infinite;
+}
+
+@keyframes secondAnimation {
+  0% {
+    background-color: red;
+    color: white;
+    font-size: medium;
+  }
+
+  50% {
+    background-color: blueviolet;
+    color: chartreuse;
+  }
+
+  100% {
+    background-color: chartreuse;
+    color: white;
+    font-size: larger;
+    border: 3px solid black;
+  }
+}
